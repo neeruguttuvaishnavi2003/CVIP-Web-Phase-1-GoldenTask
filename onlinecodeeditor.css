@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+}
+.containers{
+  display: flex;
+  justify-content: space-around;
+}
+.code-editor{
+    background-color: rgb(206, 232, 11);
+    width: 60%;
+    color: white;
+}
+textarea{
+  width: 100%;
+  min-height: 250px;
+  overflow: scroll;
+  font-size: x-large;
+  background-color: aqua;
+  float: left;
+}
+iframe{
+  width: 38%;
+  height: 50em;
+  float: right;
+
+}
+.heading{
+  padding-left: 600px;
+}
